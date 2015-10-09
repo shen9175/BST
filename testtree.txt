@@ -1,0 +1,1169 @@
+Now testing default initialization and copy contructor:
+There are 0 element(s) in the default initialization object.
+There are :  
+Default initialiazation test passed!
+
+Now testing Insert() function:
+Generated random number: 1. Put it into the BST.
+Now the Tree is:
+1 
+There are 1 element(s) in the object.
+Tree Height:1
+Tree Left Height:0
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:1
+Generated random number: 2. Put it into the BST.
+Now the Tree is:
+ 1
+  2 
+There are 2 element(s) in the object.
+Tree Height:2
+Tree Left Height:0
+Tree Right Height:2
+Tree Level:0
+Tree Maxdigit:1
+Generated random number: 8. Put it into the BST.
+Now the Tree is:
+   1
+     2
+      8 
+There are 3 element(s) in the object.
+Tree Height:3
+Tree Left Height:0
+Tree Right Height:3
+Tree Level:0
+Tree Maxdigit:1
+Generated random number: 6. Put it into the BST.
+Now the Tree is:
+       1
+           2
+             8
+            6   
+There are 4 element(s) in the object.
+Tree Height:4
+Tree Left Height:4
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:1
+Generated random number: 3. Put it into the BST.
+Now the Tree is:
+               1
+                       2
+                           8
+                         6    
+                        3       
+There are 5 element(s) in the object.
+Tree Height:5
+Tree Left Height:5
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:1
+Generated random number: 7. Put it into the BST.
+Now the Tree is:
+               1
+                       2
+                           8
+                         6    
+                        3 7     
+There are 6 element(s) in the object.
+Tree Height:5
+Tree Left Height:5
+Tree Right Height:5
+Tree Level:0
+Tree Maxdigit:1
+Generated random number: 5. Put it into the BST.
+Now the Tree is:
+                               1
+                                               2
+                                                       8
+                                                   6        
+                                                 3   7        
+                                                  5             
+There are 7 element(s) in the object.
+Tree Height:6
+Tree Left Height:0
+Tree Right Height:6
+Tree Level:0
+Tree Maxdigit:1
+Generated random number: 4. Put it into the BST.
+Now the Tree is:
+                                                               1
+                                                                                               2
+                                                                                                               8
+                                                                                                       6                
+                                                                                                   3       7                
+                                                                                                     5                        
+                                                                                                    4                           
+There are 8 element(s) in the object.
+Tree Height:7
+Tree Left Height:7
+Tree Right Height:5
+Tree Level:0
+Tree Maxdigit:1
+Generated random number: 0. Put it into the BST.
+Now the Tree is:
+                                                               1
+                               0                                                               2
+                                                                                                               8
+                                                                                                       6                
+                                                                                                   3       7                
+                                                                                                     5                        
+                                                                                                    4                           
+There are 9 element(s) in the object.
+Tree Height:7
+Tree Left Height:7
+Tree Right Height:5
+Tree Level:0
+Tree Maxdigit:1
+Generated random number: 9. Put it into the BST.
+Now the Tree is:
+                                                               1
+                               0                                                               2
+                                                                                                               8
+                                                                                                       6               9
+                                                                                                   3       7                
+                                                                                                     5                        
+                                                                                                    4                           
+There are 10 element(s) in the object.
+Tree Height:7
+Tree Left Height:7
+Tree Right Height:5
+Tree Level:0
+Tree Maxdigit:1
+Now testing the Pre Order Walking in the Tree.
+1 0 2 8 6 3 5 4 7 9 
+Now testing the In Order Walking in the Tree.
+0 1 2 3 4 5 6 7 8 9 
+Now testing the Post Order Walking in the Tree.
+0 4 5 3 7 6 9 8 2 1 
+Now testing deletion functions:
+Randome generated the number in BST to be deleted: 2. Remove it from the BST.
+Now the Tree is:
+                               1
+               0                               8
+                                       6               9
+                                   3       7                
+                                     5                        
+                                    4                           
+There are 9 element(s) in the object.
+Tree Height:6
+Tree Left Height:6
+Tree Right Height:4
+Tree Level:0
+Tree Maxdigit:1
+Randome generated the number in BST to be deleted: 8. Remove it from the BST.
+Now the Tree is:
+                               1
+               0                               9
+                                       6                
+                                   3       7                
+                                     5                        
+                                    4                           
+There are 8 element(s) in the object.
+Tree Height:6
+Tree Left Height:6
+Tree Right Height:4
+Tree Level:0
+Tree Maxdigit:1
+Randome generated the number in BST to be deleted: 0. Remove it from the BST.
+Now the Tree is:
+                               1
+                                               9
+                                       6                
+                                   3       7                
+                                     5                        
+                                    4                           
+There are 7 element(s) in the object.
+Tree Height:6
+Tree Left Height:6
+Tree Right Height:4
+Tree Level:0
+Tree Maxdigit:1
+Randome generated the number in BST to be deleted: 5. Remove it from the BST.
+Now the Tree is:
+               1
+                       9
+                   6        
+                 3   7        
+                  4             
+There are 6 element(s) in the object.
+Tree Height:5
+Tree Left Height:0
+Tree Right Height:5
+Tree Level:0
+Tree Maxdigit:1
+Randome generated the number in BST to be deleted: 6. Remove it from the BST.
+Now the Tree is:
+               1
+                       9
+                   7        
+                 3            
+                  4             
+There are 5 element(s) in the object.
+Tree Height:5
+Tree Left Height:0
+Tree Right Height:5
+Tree Level:0
+Tree Maxdigit:1
+Randome generated the number in BST to be deleted: 4. Remove it from the BST.
+Now the Tree is:
+       1
+           9
+         7    
+        3       
+There are 4 element(s) in the object.
+Tree Height:4
+Tree Left Height:4
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:1
+Randome generated the number in BST to be deleted: 7. Remove it from the BST.
+Now the Tree is:
+   1
+     9
+    3   
+There are 3 element(s) in the object.
+Tree Height:3
+Tree Left Height:3
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:1
+Randome generated the number in BST to be deleted: 3. Remove it from the BST.
+Now the Tree is:
+ 1
+  9 
+There are 2 element(s) in the object.
+Tree Height:2
+Tree Left Height:0
+Tree Right Height:2
+Tree Level:0
+Tree Maxdigit:1
+Randome generated the number in BST to be deleted: 1. Remove it from the BST.
+Now the Tree is:
+9 
+There are 1 element(s) in the object.
+Tree Height:1
+Tree Left Height:0
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:1
+Randome generated the number in BST to be deleted: 9. Remove it from the BST.
+Now the Tree is:
+  
+There are 0 element(s) in the object.
+Tree Height:0
+Tree Left Height:0
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:0
+Now deletion function has passed!
+Now testing clear() function:
+clear() function testing passed!
+Now testing Insert() function:
+Generated random number: 97. Put it into the BST.
+Now the Tree is:
+97 
+There are 1 element(s) in the object.
+Tree Height:1
+Tree Left Height:0
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:2
+Generated random number: 44. Put it into the BST.
+Now the Tree is:
+  97
+44    
+There are 2 element(s) in the object.
+Tree Height:2
+Tree Left Height:2
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:2
+Generated random number: 67. Put it into the BST.
+Now the Tree is:
+     97
+  44      
+   67       
+There are 3 element(s) in the object.
+Tree Height:3
+Tree Left Height:0
+Tree Right Height:3
+Tree Level:0
+Tree Maxdigit:2
+Generated random number: 81. Put it into the BST.
+Now the Tree is:
+           97
+     44            
+        67            
+         81             
+There are 4 element(s) in the object.
+Tree Height:4
+Tree Left Height:0
+Tree Right Height:4
+Tree Level:0
+Tree Maxdigit:2
+Generated random number: 70. Put it into the BST.
+Now the Tree is:
+                       97
+           44                        
+                 67                        
+                    81                        
+                  70                            
+There are 5 element(s) in the object.
+Tree Height:5
+Tree Left Height:5
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:2
+Generated random number: 58. Put it into the BST.
+Now the Tree is:
+                       97
+           44                        
+                 67                        
+              58    81                        
+                  70                            
+There are 6 element(s) in the object.
+Tree Height:5
+Tree Left Height:5
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:2
+Generated random number: 15. Put it into the BST.
+Now the Tree is:
+                       97
+           44                        
+     15          67                        
+              58    81                        
+                  70                            
+There are 7 element(s) in the object.
+Tree Height:5
+Tree Left Height:5
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:2
+Generated random number: 32. Put it into the BST.
+Now the Tree is:
+                       97
+           44                        
+     15          67                        
+        32    58    81                        
+                  70                            
+There are 8 element(s) in the object.
+Tree Height:5
+Tree Left Height:5
+Tree Right Height:4
+Tree Level:0
+Tree Maxdigit:2
+Generated random number: 88. Put it into the BST.
+Now the Tree is:
+                       97
+           44                        
+     15          67                        
+        32    58    81                        
+                  70 88                         
+There are 9 element(s) in the object.
+Tree Height:5
+Tree Left Height:5
+Tree Right Height:5
+Tree Level:0
+Tree Maxdigit:2
+Generated random number: 27. Put it into the BST.
+Now the Tree is:
+                       97
+           44                        
+     15          67                        
+        32    58    81                        
+      27          70 88                         
+There are 10 element(s) in the object.
+Tree Height:5
+Tree Left Height:5
+Tree Right Height:5
+Tree Level:0
+Tree Maxdigit:2
+Now testing the Pre Order Walking in the Tree.
+97 44 15 32 27 67 58 81 70 88 
+Now testing the In Order Walking in the Tree.
+15 27 32 44 58 67 70 81 88 97 
+Now testing the Post Order Walking in the Tree.
+27 32 15 58 70 88 81 67 44 97 
+Now testing deletion functions:
+Randome generated the number in BST to be deleted: 44. Remove it from the BST.
+Now the Tree is:
+                       97
+           58                        
+     15          67                        
+        32          81                        
+      27          70 88                         
+There are 9 element(s) in the object.
+Tree Height:5
+Tree Left Height:5
+Tree Right Height:5
+Tree Level:0
+Tree Maxdigit:2
+Randome generated the number in BST to be deleted: 67. Remove it from the BST.
+Now the Tree is:
+                       97
+           58                        
+     15          81                        
+        32    70    88                        
+      27                                        
+There are 8 element(s) in the object.
+Tree Height:5
+Tree Left Height:5
+Tree Right Height:4
+Tree Level:0
+Tree Maxdigit:2
+Randome generated the number in BST to be deleted: 88. Remove it from the BST.
+Now the Tree is:
+                       97
+           58                        
+     15          81                        
+        32    70                              
+      27                                        
+There are 7 element(s) in the object.
+Tree Height:5
+Tree Left Height:5
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:2
+Randome generated the number in BST to be deleted: 15. Remove it from the BST.
+Now the Tree is:
+           97
+     58            
+  32    81            
+27    70                
+There are 6 element(s) in the object.
+Tree Height:4
+Tree Left Height:4
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:2
+Randome generated the number in BST to be deleted: 81. Remove it from the BST.
+Now the Tree is:
+           97
+     58            
+  32    70            
+27                      
+There are 5 element(s) in the object.
+Tree Height:4
+Tree Left Height:4
+Tree Right Height:3
+Tree Level:0
+Tree Maxdigit:2
+Randome generated the number in BST to be deleted: 32. Remove it from the BST.
+Now the Tree is:
+     97
+  58      
+27 70       
+There are 4 element(s) in the object.
+Tree Height:3
+Tree Left Height:3
+Tree Right Height:3
+Tree Level:0
+Tree Maxdigit:2
+Randome generated the number in BST to be deleted: 58. Remove it from the BST.
+Now the Tree is:
+     97
+  70      
+27          
+There are 3 element(s) in the object.
+Tree Height:3
+Tree Left Height:3
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:2
+Randome generated the number in BST to be deleted: 70. Remove it from the BST.
+Now the Tree is:
+  97
+27    
+There are 2 element(s) in the object.
+Tree Height:2
+Tree Left Height:2
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:2
+Randome generated the number in BST to be deleted: 97. Remove it from the BST.
+Now the Tree is:
+27 
+There are 1 element(s) in the object.
+Tree Height:1
+Tree Left Height:0
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:2
+Randome generated the number in BST to be deleted: 27. Remove it from the BST.
+Now the Tree is:
+  
+There are 0 element(s) in the object.
+Tree Height:0
+Tree Left Height:0
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:0
+Now deletion function has passed!
+Now testing clear() function:
+clear() function testing passed!
+Now testing Insert() function:
+Generated random number: 795. Put it into the BST.
+Now the Tree is:
+795 
+There are 1 element(s) in the object.
+Tree Height:1
+Tree Left Height:0
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:3
+Generated random number: 221. Put it into the BST.
+Now the Tree is:
+  795
+221     
+There are 2 element(s) in the object.
+Tree Height:2
+Tree Left Height:2
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:3
+Generated random number: 953. Put it into the BST.
+Now the Tree is:
+  795
+221 953 
+There are 3 element(s) in the object.
+Tree Height:2
+Tree Left Height:2
+Tree Right Height:2
+Tree Level:0
+Tree Maxdigit:3
+Generated random number: 428. Put it into the BST.
+Now the Tree is:
+      795
+  221     953
+    428         
+There are 4 element(s) in the object.
+Tree Height:3
+Tree Left Height:0
+Tree Right Height:3
+Tree Level:0
+Tree Maxdigit:3
+Generated random number: 160. Put it into the BST.
+Now the Tree is:
+      795
+  221     953
+160 428         
+There are 5 element(s) in the object.
+Tree Height:3
+Tree Left Height:3
+Tree Right Height:3
+Tree Level:0
+Tree Maxdigit:3
+Generated random number: 819. Put it into the BST.
+Now the Tree is:
+      795
+  221     953
+160 428 819     
+There are 6 element(s) in the object.
+Tree Height:3
+Tree Left Height:3
+Tree Right Height:3
+Tree Level:0
+Tree Maxdigit:3
+Generated random number: 261. Put it into the BST.
+Now the Tree is:
+              795
+      221             953
+  160     428     819        
+        261                     
+There are 7 element(s) in the object.
+Tree Height:4
+Tree Left Height:4
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:3
+Generated random number: 580. Put it into the BST.
+Now the Tree is:
+              795
+      221             953
+  160     428     819        
+        261 580                 
+There are 8 element(s) in the object.
+Tree Height:4
+Tree Left Height:4
+Tree Right Height:4
+Tree Level:0
+Tree Maxdigit:3
+Generated random number: 759. Put it into the BST.
+Now the Tree is:
+                              795
+              221                             953
+      160             428             819                
+                  261     580                                
+                            759                                 
+There are 9 element(s) in the object.
+Tree Height:5
+Tree Left Height:4
+Tree Right Height:5
+Tree Level:0
+Tree Maxdigit:3
+Generated random number: 395. Put it into the BST.
+Now the Tree is:
+                              795
+              221                             953
+      160             428             819                
+                  261     580                                
+                    395     759                                 
+There are 10 element(s) in the object.
+Tree Height:5
+Tree Left Height:3
+Tree Right Height:5
+Tree Level:0
+Tree Maxdigit:3
+Now testing the Pre Order Walking in the Tree.
+795 221 160 428 261 395 580 759 953 819 
+Now testing the In Order Walking in the Tree.
+160 221 261 395 428 580 759 795 819 953 
+Now testing the Post Order Walking in the Tree.
+160 395 261 759 580 428 221 819 953 795 
+Now testing deletion functions:
+Randome generated the number in BST to be deleted: 221. Remove it from the BST.
+Now the Tree is:
+                              795
+              261                             953
+      160             428             819                
+                  395     580                                
+                            759                                 
+There are 9 element(s) in the object.
+Tree Height:5
+Tree Left Height:4
+Tree Right Height:5
+Tree Level:0
+Tree Maxdigit:3
+Randome generated the number in BST to be deleted: 953. Remove it from the BST.
+Now the Tree is:
+                              795
+              261                             819
+      160             428                                
+                  395     580                                
+                            759                                 
+There are 8 element(s) in the object.
+Tree Height:5
+Tree Left Height:4
+Tree Right Height:5
+Tree Level:0
+Tree Maxdigit:3
+Randome generated the number in BST to be deleted: 759. Remove it from the BST.
+Now the Tree is:
+              795
+      261             819
+  160     428                
+        395 580                 
+There are 7 element(s) in the object.
+Tree Height:4
+Tree Left Height:4
+Tree Right Height:4
+Tree Level:0
+Tree Maxdigit:3
+Randome generated the number in BST to be deleted: 261. Remove it from the BST.
+Now the Tree is:
+              795
+      395             819
+  160     428                
+            580                 
+There are 6 element(s) in the object.
+Tree Height:4
+Tree Left Height:3
+Tree Right Height:4
+Tree Level:0
+Tree Maxdigit:3
+Randome generated the number in BST to be deleted: 428. Remove it from the BST.
+Now the Tree is:
+      795
+  395     819
+160 580         
+There are 5 element(s) in the object.
+Tree Height:3
+Tree Left Height:3
+Tree Right Height:3
+Tree Level:0
+Tree Maxdigit:3
+Randome generated the number in BST to be deleted: 580. Remove it from the BST.
+Now the Tree is:
+      795
+  395     819
+160             
+There are 4 element(s) in the object.
+Tree Height:3
+Tree Left Height:3
+Tree Right Height:2
+Tree Level:0
+Tree Maxdigit:3
+Randome generated the number in BST to be deleted: 819. Remove it from the BST.
+Now the Tree is:
+      795
+  395        
+160             
+There are 3 element(s) in the object.
+Tree Height:3
+Tree Left Height:3
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:3
+Randome generated the number in BST to be deleted: 160. Remove it from the BST.
+Now the Tree is:
+  795
+395     
+There are 2 element(s) in the object.
+Tree Height:2
+Tree Left Height:2
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:3
+Randome generated the number in BST to be deleted: 795. Remove it from the BST.
+Now the Tree is:
+395 
+There are 1 element(s) in the object.
+Tree Height:1
+Tree Left Height:0
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:3
+Randome generated the number in BST to be deleted: 395. Remove it from the BST.
+Now the Tree is:
+  
+There are 0 element(s) in the object.
+Tree Height:0
+Tree Left Height:0
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:0
+Now deletion function has passed!
+Now testing clear() function:
+clear() function testing passed!
+Now testing Insert() function:
+Generated random number: 695. Put it into the BST.
+Now the Tree is:
+695 
+There are 1 element(s) in the object.
+Tree Height:1
+Tree Left Height:0
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:3
+Generated random number: 957. Put it into the BST.
+Now the Tree is:
+  695
+    957 
+There are 2 element(s) in the object.
+Tree Height:2
+Tree Left Height:0
+Tree Right Height:2
+Tree Level:0
+Tree Maxdigit:3
+Generated random number: 853. Put it into the BST.
+Now the Tree is:
+      695
+          957
+        853     
+There are 3 element(s) in the object.
+Tree Height:3
+Tree Left Height:3
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:3
+Generated random number: 328. Put it into the BST.
+Now the Tree is:
+      695
+  328     957
+        853     
+There are 4 element(s) in the object.
+Tree Height:3
+Tree Left Height:3
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:3
+Generated random number: 60. Put it into the BST.
+Now the Tree is:
+      695
+  328     957
+ 60     853     
+There are 5 element(s) in the object.
+Tree Height:3
+Tree Left Height:3
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:3
+Generated random number: 719. Put it into the BST.
+Now the Tree is:
+              695
+      328             957
+   60             853        
+                719             
+There are 6 element(s) in the object.
+Tree Height:4
+Tree Left Height:4
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:3
+Generated random number: 161. Put it into the BST.
+Now the Tree is:
+              695
+      328             957
+   60             853        
+    161         719             
+There are 7 element(s) in the object.
+Tree Height:4
+Tree Left Height:4
+Tree Right Height:4
+Tree Level:0
+Tree Maxdigit:3
+Generated random number: 480. Put it into the BST.
+Now the Tree is:
+              695
+      328             957
+   60     480     853        
+    161         719             
+There are 8 element(s) in the object.
+Tree Height:4
+Tree Left Height:4
+Tree Right Height:4
+Tree Level:0
+Tree Maxdigit:3
+Generated random number: 916. Put it into the BST.
+Now the Tree is:
+              695
+      328             957
+   60     480     853        
+    161         719 916         
+There are 9 element(s) in the object.
+Tree Height:4
+Tree Left Height:4
+Tree Right Height:4
+Tree Level:0
+Tree Maxdigit:3
+Generated random number: 295. Put it into the BST.
+Now the Tree is:
+                              695
+              328                             957
+       60             480             853                
+          161                     719     916                
+            295                                                 
+There are 10 element(s) in the object.
+Tree Height:5
+Tree Left Height:4
+Tree Right Height:5
+Tree Level:0
+Tree Maxdigit:3
+Now testing the Pre Order Walking in the Tree.
+695 328 60 161 295 480 957 853 719 916 
+Now testing the In Order Walking in the Tree.
+60 161 295 328 480 695 719 853 916 957 
+Now testing the Post Order Walking in the Tree.
+295 161 60 480 328 719 916 853 957 695 
+Now testing deletion functions:
+Randome generated the number in BST to be deleted: 957. Remove it from the BST.
+Now the Tree is:
+                              695
+              328                             853
+       60             480             719             916
+          161                                                
+            295                                                 
+There are 9 element(s) in the object.
+Tree Height:5
+Tree Left Height:3
+Tree Right Height:5
+Tree Level:0
+Tree Maxdigit:3
+Randome generated the number in BST to be deleted: 853. Remove it from the BST.
+Now the Tree is:
+                              695
+              328                             916
+       60             480             719                
+          161                                                
+            295                                                 
+There are 8 element(s) in the object.
+Tree Height:5
+Tree Left Height:3
+Tree Right Height:5
+Tree Level:0
+Tree Maxdigit:3
+Randome generated the number in BST to be deleted: 916. Remove it from the BST.
+Now the Tree is:
+                              695
+              328                             719
+       60             480                                
+          161                                                
+            295                                                 
+There are 7 element(s) in the object.
+Tree Height:5
+Tree Left Height:0
+Tree Right Height:5
+Tree Level:0
+Tree Maxdigit:3
+Randome generated the number in BST to be deleted: 161. Remove it from the BST.
+Now the Tree is:
+              695
+      328             719
+   60     480                
+    295                         
+There are 6 element(s) in the object.
+Tree Height:4
+Tree Left Height:0
+Tree Right Height:4
+Tree Level:0
+Tree Maxdigit:3
+Randome generated the number in BST to be deleted: 328. Remove it from the BST.
+Now the Tree is:
+              695
+      480             719
+   60                        
+    295                         
+There are 5 element(s) in the object.
+Tree Height:4
+Tree Left Height:0
+Tree Right Height:4
+Tree Level:0
+Tree Maxdigit:3
+Randome generated the number in BST to be deleted: 480. Remove it from the BST.
+Now the Tree is:
+      695
+   60     719
+    295         
+There are 4 element(s) in the object.
+Tree Height:3
+Tree Left Height:0
+Tree Right Height:3
+Tree Level:0
+Tree Maxdigit:3
+Randome generated the number in BST to be deleted: 719. Remove it from the BST.
+Now the Tree is:
+      695
+   60        
+    295         
+There are 3 element(s) in the object.
+Tree Height:3
+Tree Left Height:0
+Tree Right Height:3
+Tree Level:0
+Tree Maxdigit:3
+Randome generated the number in BST to be deleted: 60. Remove it from the BST.
+Now the Tree is:
+  695
+295     
+There are 2 element(s) in the object.
+Tree Height:2
+Tree Left Height:2
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:3
+Randome generated the number in BST to be deleted: 695. Remove it from the BST.
+Now the Tree is:
+295 
+There are 1 element(s) in the object.
+Tree Height:1
+Tree Left Height:0
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:3
+Randome generated the number in BST to be deleted: 295. Remove it from the BST.
+Now the Tree is:
+  
+There are 0 element(s) in the object.
+Tree Height:0
+Tree Left Height:0
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:0
+Now deletion function has passed!
+Now testing clear() function:
+clear() function testing passed!
+Now testing initilization list initialization and copy contructor:
+Before pass
+There are 12 element(s) in the default initialization object.
+Tree Height:5
+Tree Left Height:5
+Tree Right Height:4
+Tree Level:0
+Tree Maxdigit:0
+
+After pass
+There are 12 element(s) in the default initialization object.
+There are :
+                       15
+            6                      18
+      3           7          17          20
+   2     4          13                      21
+                   9                            
+Tree Height:5
+Tree Left Height:5
+Tree Right Height:4
+Tree Level:0
+Tree Maxdigit:2
+Initialization list initialiazation and copy contructor test passed!
+
+Now testing the Pre Order Walking in the Tree.
+15 6 3 2 4 7 13 9 18 17 20 21 
+Now testing the In Order Walking in the Tree.
+2 3 4 6 7 9 13 15 17 18 20 21 
+Now testing the Post Order Walking in the Tree.
+2 4 3 9 13 7 6 17 21 20 18 15 
+Now testing delete the node has no left child.
+
+21 is deleted.
+Now the tree is like this:
+                       15
+            6                      18
+      3           7          17          20
+   2     4          13                        
+                   9                            
+There are 11 element(s) in the object.
+Tree Height:5
+Tree Left Height:5
+Tree Right Height:4
+Tree Level:0
+Tree Maxdigit:2
+Now testing delete the node has no right child.
+
+13 is deleted.
+Now the tree is like this:
+           15
+      6          18
+   3     7    17    20
+ 2  4     9             
+There are 10 element(s) in the object.
+Tree Height:4
+Tree Left Height:4
+Tree Right Height:4
+Tree Level:0
+Tree Maxdigit:2
+Now delete 9
+
+
+9 is deleted
+Now the tree is like this:
+           15
+      6          18
+   3     7    17    20
+ 2  4                   
+There are 9 element(s) in the object.
+Tree Height:4
+Tree Left Height:4
+Tree Right Height:4
+Tree Level:0
+Tree Maxdigit:2
+Now insert 13 again
+13 is inserted.
+Now the tree is like this:
+           15
+      6          18
+   3     7    17    20
+ 2  4    13             
+There are 10 element(s) in the object.
+Tree Height:4
+Tree Left Height:4
+Tree Right Height:4
+Tree Level:0
+Tree Maxdigit:2
+Now insert 9 again
+9 is inserted.
+Now the tree is like this:
+                       15
+            6                      18
+      3           7          17          20
+   2     4          13                        
+                   9                            
+There are 11 element(s) in the object.
+Tree Height:5
+Tree Left Height:5
+Tree Right Height:4
+Tree Level:0
+Tree Maxdigit:2
+Now delete 7
+7 is deleted.
+Now the tree is like this:
+           15
+      6          18
+   3    13    17    20
+ 2  4  9                
+There are 10 element(s) in the object.
+Tree Height:4
+Tree Left Height:4
+Tree Right Height:4
+Tree Level:0
+Tree Maxdigit:2
+Now delete 18
+18 is deleted.
+Now the tree is like this:
+           15
+      6          20
+   3    13    17      
+ 2  4  9                
+There are 9 element(s) in the object.
+Tree Height:4
+Tree Left Height:4
+Tree Right Height:4
+Tree Level:0
+Tree Maxdigit:2
+Now insert 18 again
+18 is inserted.
+Now the tree is like this:
+           15
+      6          20
+   3    13    17      
+ 2  4  9       18       
+There are 10 element(s) in the object.
+Tree Height:4
+Tree Left Height:4
+Tree Right Height:4
+Tree Level:0
+Tree Maxdigit:2
+Now delete 20
+20 is deleted.
+Now the tree is like this:
+           15
+      6          17
+   3    13          18
+ 2  4  9                
+There are 9 element(s) in the object.
+Tree Height:4
+Tree Left Height:4
+Tree Right Height:4
+Tree Level:0
+Tree Maxdigit:2
+Now testing clear() function:
+There are 0 element(s) in the object.
+Tree Height:0
+Tree Left Height:0
+Tree Right Height:0
+Tree Level:0
+Tree Maxdigit:0
+clear() function testing passed!
+Now testing insert multiple elements:15,6,7,13,9,3,2,4,18,17,30,31,22,25,24,26,35
+15,6,7,13,9,3,2,4,18,17,30,31,22,25,24,26,35 is inserted.
+Now the tree is like this:
+                                               15
+                        6                                              18
+            3                       7                      17                      30
+      2           4                      13                                  22          31
+                                       9                                        25          35
+                                                                              24 26             
+There are 17 element(s) in the object.
+Tree Height:6
+Tree Left Height:6
+Tree Right Height:6
+Tree Level:0
+Tree Maxdigit:2
+Insert multiple elements testing passed!
+Now testing delete the node has two children and its right child is not its sucessor:
+Delete 18
+18 is deleted.
+Now the tree is like this:
+                       15
+            6                      22
+      3           7          17          30
+   2     4          13                25    31
+                   9                24 26    35 
+There are 16 element(s) in the object.
+Tree Height:5
+Tree Left Height:5
+Tree Right Height:5
+Tree Level:0
+Tree Maxdigit:2
